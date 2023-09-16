@@ -1,0 +1,22 @@
+ #tom{ 
+     text-align: center; 
+     margin-top: 3%; 
+     font-style:oblique; 
+     color:rgb(165, 145, 108);   
+   } 
+#loginForm{
+    width: 250px;
+    background-color: rgb(188, 177, 164);
+    padding: 6%;
+    margin-top: 40%; 
+    
+}
+body{
+    background-image: url(Images/pexels-dlxmediahu-11911068.jpg);
+    background-size: cover;
+}
+#main-head{
+    text-align: center;
+    color: black;
+    margin-top: 15px;
+}

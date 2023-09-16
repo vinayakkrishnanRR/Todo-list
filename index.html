@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to To-Do</title>
+
+ <link rel="stylesheet" href="CSS/Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body background="./assets/bg-login.jpeg" 
+      style="background-position: center center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;">
+    
+    <div class="main-content">
+        <h1 id="main-head">Welcome to  To-Do App!</h1>
+      <!-- LOGIN -->
+
+      <div class="container main">
+        <div class="row contents">
+            <div class="col col-lg-9 col-md-9 col-sm-12 col-xs-12 side-text">
+                <!-- <h1 id="sub">Bring out the best in</h1>
+                <h1 id="emp">You.</h1> -->
+            </div>
+            <div class="col col-lg-3 col-md-3 col-sm-12 col-xs-12 logger">
+                <form id="loginForm">                    
+                        <h1>Log in</h1>
+                        <div class="user">
+                            <label for="username"></label>
+                            <input placeholder="Username" type="text" class="form-in" id="username" onblur="validateUser()" required><br>
+                            <span id="userConfirm"></span><br>
+                        </div>
+                        <div class="pass">
+                            <label for="password"></label>
+                            <input placeholder="Password" type="password" class="form-in" id="password" onblur="validatePass()" required><br>
+                            <span id="passConfirm"></span><br>
+                        </div>
+                        <button type="submit">Log In</button>                    
+                </form>
+            </div>
+            
+        </div>
+      </div>
+
+      <!-- /LOGIN -->
+    </div>
+    
+    <script src="./login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
